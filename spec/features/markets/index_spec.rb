@@ -1,10 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe 'Markets Index Page', type: :feature do
-  before(:each) do
-
-  end
-
   describe "When a user visits the markets index page" do
     it 'They see all markets listed with their name, city, and state', :vcr do
       visit markets_path

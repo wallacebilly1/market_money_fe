@@ -16,4 +16,10 @@ RSpec.describe MarketFacade do
       expect(market).to be_a(Market)
     end
   end
+
+  it 'returns a market object', :vcr do
+    facade = MarketFacade.new(322458)
+    
+    expect(facade.market).to be_a(Market)
+  end
 end

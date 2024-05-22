@@ -7,7 +7,8 @@ class Market
               :state,
               :zip,
               :lat,
-              :lon
+              :lon,
+              :vendor_count
 
   def initialize(market_data)
     @id = market_data[:id]
@@ -19,5 +20,10 @@ class Market
     @zip = market_data[:attributes][:zip]
     @lat = market_data[:attributes][:lat]
     @lon = market_data[:attributes][:lon]
+    @vendor_count = market_data[:attributes][:vendor_count]
+  end
+
+  def address
+    "#{@street} #{@city}, #{@state} #{@zip}"
   end
 end
