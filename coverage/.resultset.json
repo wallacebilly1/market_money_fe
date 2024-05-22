@@ -352,6 +352,29 @@
           null
         ]
       },
+      "/Users/billy/Turing/3mod/projects/market_money_fe/spec/features/vendors/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/billy/Turing/3mod/projects/market_money_fe/spec/poros/market_spec.rb": {
         "lines": [
           1,
@@ -486,17 +509,61 @@
           null,
           null,
           1,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          null,
+          null
+        ]
+      },
+      "/Users/billy/Turing/3mod/projects/market_money_fe/app/controllers/vendors_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/billy/Turing/3mod/projects/market_money_fe/app/facades/vendor_facade.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          10,
+          null,
+          10,
+          null,
+          10,
+          null,
+          null
+        ]
+      },
+      "/Users/billy/Turing/3mod/projects/market_money_fe/app/services/vendor_service.rb": {
+        "lines": [
+          1,
+          1,
+          10,
+          null,
+          null,
+          1,
+          10,
+          10,
+          null,
+          null,
+          1,
+          10,
           null,
           null
         ]
       }
     },
-    "timestamp": 1716414103
+    "timestamp": 1716414855
   }
 }

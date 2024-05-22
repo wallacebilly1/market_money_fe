@@ -2,159 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: http://127.0.0.1:3000/api/v0/markets/322458
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - '0'
-      X-Content-Type-Options:
-      - nosniff
-      X-Permitted-Cross-Domain-Policies:
-      - none
-      Referrer-Policy:
-      - strict-origin-when-cross-origin
-      Content-Type:
-      - application/json; charset=utf-8
-      Vary:
-      - Accept
-      Etag:
-      - W/"1db18b9029afcb92d31394ca96cfb80d"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - dfcde10e-990d-4070-90cc-b94db358cdb0
-      X-Runtime:
-      - '0.006092'
-      Server-Timing:
-      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.63, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=1.78
-      Content-Length:
-      - '272'
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":"322458","type":"market","attributes":{"name":"14\u0026U
-        Farmers'' Market","street":"1400 U Street NW ","city":"Washington","county":"District
-        of Columbia","state":"District of Columbia","zip":"20009","lat":"38.9169984","lon":"-77.0320505","vendor_count":1}}}'
-  recorded_at: Wed, 22 May 2024 21:54:15 GMT
-- request:
-    method: get
-    uri: http://127.0.0.1:3000/api/v0/markets/322458
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - '0'
-      X-Content-Type-Options:
-      - nosniff
-      X-Permitted-Cross-Domain-Policies:
-      - none
-      Referrer-Policy:
-      - strict-origin-when-cross-origin
-      Content-Type:
-      - application/json; charset=utf-8
-      Vary:
-      - Accept
-      Etag:
-      - W/"1db18b9029afcb92d31394ca96cfb80d"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - f26d9a91-eedc-4dc8-aa81-0b2c8786f8da
-      X-Runtime:
-      - '0.008121'
-      Server-Timing:
-      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.58, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=4.04
-      Content-Length:
-      - '272'
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":"322458","type":"market","attributes":{"name":"14\u0026U
-        Farmers'' Market","street":"1400 U Street NW ","city":"Washington","county":"District
-        of Columbia","state":"District of Columbia","zip":"20009","lat":"38.9169984","lon":"-77.0320505","vendor_count":1}}}'
-  recorded_at: Wed, 22 May 2024 21:54:15 GMT
-- request:
-    method: get
-    uri: http://127.0.0.1:3000/api/v0/markets/322458/vendors
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - '0'
-      X-Content-Type-Options:
-      - nosniff
-      X-Permitted-Cross-Domain-Policies:
-      - none
-      Referrer-Policy:
-      - strict-origin-when-cross-origin
-      Content-Type:
-      - application/json; charset=utf-8
-      Vary:
-      - Accept
-      Etag:
-      - W/"bdaccad93f7285807716ef780f572aa1"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 8d7b0abf-bbda-44c6-9abd-6fca1ebeb591
-      X-Runtime:
-      - '0.006084'
-      Server-Timing:
-      - start_processing.action_controller;dur=0.00, sql.active_record;dur=1.17, instantiation.active_record;dur=0.04,
-        process_action.action_controller;dur=2.68
-      Content-Length:
-      - '264'
-    body:
-      encoding: UTF-8
-      string: '{"data":[{"id":"55823","type":"vendor","attributes":{"name":"The Charcuterie
-        Corner","description":"Vendor selling a variety of artisanal cured meats and
-        sausages.","contact_name":"Claudie Langworth III","contact_phone":"1-147-179-9747","credit_accepted":false}}]}'
-  recorded_at: Wed, 22 May 2024 21:54:15 GMT
-- request:
-    method: get
     uri: http://127.0.0.1:3000/api/v0/vendors/55823
     body:
       encoding: US-ASCII
@@ -190,12 +37,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - db10f214-4419-487c-a9ae-88b508ff319c
+      - 18d234cb-c755-45fb-bf41-8de9adc3dbbb
       X-Runtime:
-      - '0.007347'
+      - '0.015074'
       Server-Timing:
-      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.94, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=2.90
+      - start_processing.action_controller;dur=0.01, sql.active_record;dur=0.48, instantiation.active_record;dur=0.14,
+        process_action.action_controller;dur=6.46
       Content-Length:
       - '262'
     body:
@@ -241,12 +88,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3258e096-7166-4960-b2da-ae5211895105
+      - 630f752c-e660-4cbd-bcea-dfc97dba9e44
       X-Runtime:
-      - '0.004980'
+      - '0.070781'
       Server-Timing:
-      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.16, instantiation.active_record;dur=0.04,
-        process_action.action_controller;dur=0.94
+      - start_processing.action_controller;dur=0.01, sql.active_record;dur=0.15, instantiation.active_record;dur=0.03,
+        process_action.action_controller;dur=0.91
       Content-Length:
       - '262'
     body:
@@ -292,12 +139,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - fb5e85da-bf9f-4cc0-b57c-f5ce69148848
+      - 69c227e4-8281-4142-9ba9-e68cfa4ff602
       X-Runtime:
-      - '0.005025'
+      - '0.005926'
       Server-Timing:
-      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.11, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=0.85
+      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.18, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=0.82
       Content-Length:
       - '262'
     body:
@@ -343,12 +190,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b13eab50-712b-4f59-98a7-dce50a4f257f
+      - bc371bdf-8315-4fa2-b349-c706444c0c49
       X-Runtime:
-      - '0.009080'
+      - '0.006803'
       Server-Timing:
-      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.17, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=0.97
+      - start_processing.action_controller;dur=0.01, sql.active_record;dur=0.12, instantiation.active_record;dur=0.04,
+        process_action.action_controller;dur=1.13
       Content-Length:
       - '262'
     body:
@@ -394,12 +241,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c8a389bf-1f76-4a38-8d06-1268ee91b21c
+      - aee9514a-cce5-4585-a92a-573d159323de
       X-Runtime:
-      - '0.005499'
+      - '0.006745'
       Server-Timing:
-      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.12, instantiation.active_record;dur=0.09,
-        process_action.action_controller;dur=0.98
+      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.12, instantiation.active_record;dur=0.03,
+        process_action.action_controller;dur=1.01
       Content-Length:
       - '262'
     body:
