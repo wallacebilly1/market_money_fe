@@ -12,7 +12,7 @@ class MarketFacade
       Market.new(market_data)
     end
 
-    @markets[0..4]
+    @markets[0..19]
   end
 
   def market

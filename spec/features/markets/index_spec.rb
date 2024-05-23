@@ -7,7 +7,7 @@ RSpec.describe 'Markets Index Page', type: :feature do
 
       expect(page).to have_content("Markets")
 
-      expect(page).to have_css("#markets div", count: 5)
+      expect(page).to have_css("#markets div", count: 20)
 
       within ("#market-322458") do
         expect(page).to have_content("Name: 14&U Farmers' Market")
