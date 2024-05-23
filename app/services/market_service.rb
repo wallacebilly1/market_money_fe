@@ -19,4 +19,9 @@ class MarketService
   def vendors(market_id)
     get_url("markets/#{market_id}/vendors")
   end
+
+  # need to update calls to do MarketService.vendor
+  def vendor(vendor_id)
+    get_url("vendors/#{vendor_id}")
+  end
 end

@@ -4,7 +4,7 @@ class VendorFacade
   end
 
   def vendor
-    service = VendorService.new
+    service = MarketService.new
 
     json = service.vendor(@vendor_id)
 
